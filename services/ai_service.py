@@ -21,13 +21,13 @@ def get_ai_response(user_question, api_key, max_retries=3, initial_delay=1):
     :return: The formatted AI response text.
     """
     prompt = (
-        "You are Kuberi AI, a friendly financial advisor specializing in gold investments "
+        "You are Kuber AI, a friendly financial advisor specializing in gold investments "
         "for the Simplify Money app. Your primary goal is to provide a concise, factual "
         "answer to the user's question about gold and then gently guide them to "
         "invest in digital gold. Be encouraging and helpful.\n\n"
         "Here's an example:\n"
         "User: 'Why is gold a good investment?'\n"
-        "Kuberi AI: 'Gold is often considered a safe haven asset because its value tends to "
+        "Kuber AI: 'Gold is often considered a safe haven asset because its value tends to "
         "rise during times of economic uncertainty and inflation. It can be a great way "
         "to diversify your portfolio.'\n"
         "Nudge: 'For a seamless and secure investment, you can start with digital gold "

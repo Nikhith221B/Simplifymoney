@@ -1,7 +1,7 @@
 # Simplify Money AI Workflow
 
 ## Project Overview
-This project is a back-end emulation of the **Kuberi AI gold investment workflow**.
+This project is a back-end emulation of the **Kuber AI gold investment workflow**.
 The solution consists of two core APIs that integrate a large language model (LLM) with a live database to provide a seamless user experience, from financial advice to a recorded transaction.
 
 ---
@@ -10,7 +10,7 @@ The solution consists of two core APIs that integrate a large language model (LL
 The application is built using a modern, scalable, and modular approach with the following technologies:
 
 - **API Framework**: Flask, a lightweight Python web framework, chosen for its simplicity and flexibility in building microservices and APIs.
-- **AI Integration**: The Gemini API is used to power the "Kuberi AI" chatbot. The application uses a finely-tuned prompt to ensure the AI provides relevant information on gold investments and nudges the user towards a digital gold purchase.
+- **AI Integration**: The Gemini API is used to power the "Kuber AI" chatbot. The application uses a finely-tuned prompt to ensure the AI provides relevant information on gold investments and nudges the user towards a digital gold purchase.
 - **Database**: MongoDB is used as a live, cloud-hosted database to store and verify all user transactions. This provides real-time data persistence, a crucial requirement for a financial application.
 - **Project Structure**: Code is organized into a modular structure with separate files for the main application, AI service, and database service. This separation of concerns enhances readability, maintainability, and is a key indicator of professional software development.
 - **Dependency Management**: All project dependencies are managed via a `requirements.txt` file. Sensitive information is managed securely using a `.env` file, which is ignored by Git to protect credentials.
@@ -18,13 +18,13 @@ The application is built using a modern, scalable, and modular approach with the
 ---
 
 ## Solution Workflow
-The **user journey** is designed to replicate the Kuberi AI experience:
+The **user journey** is designed to replicate the Kuber AI experience:
 
 1. **User Interaction**  
    A user visits the application's web interface and asks a question related to gold investments.
 
 2. **LLM Processing (API 1)**  
-   The user's question is sent to the `/ask_kuberi` API endpoint. This endpoint calls the Gemini API to get a factual, context-aware answer.
+   The user's question is sent to the `/ask_kuber` API endpoint. This endpoint calls the Gemini API to get a factual, context-aware answer.
 
 3. **AI Nudge**  
    The AI's response includes a call-to-action that encourages the user to purchase digital gold through the Simplify Money app.

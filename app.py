@@ -26,8 +26,8 @@ def index():
     """Serves the main HTML page to the user."""
     return render_template('index.html')
 
-@app.route('/ask_kuberi', methods=['POST'])
-def ask_kuberi():
+@app.route('/ask_kuber', methods=['POST'])
+def ask_kuber():
     """
     API 1: Handles user questions, interacts with the LLM, and provides a
     factual answer along with a digital gold purchase nudge.
