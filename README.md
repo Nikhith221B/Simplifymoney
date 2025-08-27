@@ -54,7 +54,7 @@ The application is designed for easy **local execution** and deployment to a clo
 
 2. **Install Dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install Flask requests python-dotenv pymongo
 
 3. **Configure Environment Variables**
    
