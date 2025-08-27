@@ -1,0 +1,6 @@
+.env
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
